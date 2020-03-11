@@ -213,13 +213,7 @@ Message: { "id": $request_id, "deviceName": "YOUR_DEVICE_NAME", "deviceType": "Y
 
 where **$request_id** is your integer request identifier.
 
-Before sending PUBLISH message with the request, client need to subscribe to 
-
-```shell
-Topic: v1/gateway/provision/response
-```
-
-and expect messages with result in the following format:
+Expect messages with result in the following format:
 
 ```shell
 Message: {"id":$request_id, "deviceId":"YOUR_DEVICE_ID", "credentialsType":"ACCESS_TOKEN", "credentialsId":"YOUR_TOKEN", "credentialsValue": "YOUR_CREDENTIALS_VALUE"}

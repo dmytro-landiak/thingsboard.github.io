@@ -248,12 +248,6 @@ The supported data format is:
 }
 ```
 
-Before sending PUBLISH message with the request, client need to subscribe to 
-
-```shell
-v1/devices/me/provision/response
-```
-
 The following example is written in javascript and is based on mqtt.js. 
 Pure command-line examples are not available because subscribe and publish need to happen in the same mqtt session.
 

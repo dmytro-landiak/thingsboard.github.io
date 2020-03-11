@@ -5,7 +5,6 @@ var client  = mqtt.connect('mqtt://127.0.0.1',{
 
 client.on('connect', function () {
     console.log('connected')
-    client.subscribe('v1/devices/me/provision/response')
     client.publish('v1/devices/me/provision', '{"deviceName": "name", "deviceType": "type", "provisionProfileKey": $PROFILE_KEY, "provisionProfileSecret": $PROFILE_SECRET}')
 })
 
