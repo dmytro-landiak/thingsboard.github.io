@@ -24,7 +24,7 @@ How the broker processes this file:
 The system creates a new **DEVICE** credentials `Sensor_Device` using the provided Client ID `sensor-01`, Username `mqtt-user-01`, and the description `Demo device client`. It encodes the plain-text Password `secretPass` and applies the topic patterns parsed by the `;` delimiter for both subscribe (`sensors/1/data`, `sensors/all/data`) and publish (`sensors/1/cmd`) permissions.
 
 **2. Application_Manager**.
-The system creates a new **APPLICATION** credentials `Application_Manager` with Client ID `app-mgr-01`, leaving the Username, Password, and description fields **null** because their cells are empty. The Sub auth rule pattern is set to **null** which forbids subscription to all topics, while the Pub auth rule is set to the `alerts/#` pattern.
+The system creates a new **APPLICATION** credentials `Application_Manager` with Client ID `app-mgr-01`, leaving the Username, Password, and description fields **null** because their cells are empty. The Sub auth rule pattern is set to **null** which forbids subscription to all topics, while the Pub auth rule is set to the `alerts/.*` pattern.
 
 ### Step 1: Select a file
 Upload your prepared CSV file to the system.
