@@ -77,6 +77,8 @@ toc:
       path: /docs/pe/mqtt-broker/other/proxy-protocol/
     - title: Health API
       path: /docs/pe/mqtt-broker/other/health/
+    - title: Bulk Provisioning
+      path: /docs/pe/mqtt-broker/other/bulk-provisioning/
 - title: Integrations
   new: true
   section:
