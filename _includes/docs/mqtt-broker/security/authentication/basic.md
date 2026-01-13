@@ -17,15 +17,29 @@ The following sections explain provider configuration, credential matching, `cre
 
 {% include docs/mqtt-broker/user-guide/ui/authentication-provider-control.md %}
 
-### Credentials matching
+### Authentication strategy
 
-The following are the **possible combinations** of `Basic` credentials matchers:
-- **clientId** - checks if the connecting client has specified clientId.
-- **username** - checks if the connecting client has specified a username.
-- **clientId and username** - checks if the connecting client has specified both clientId and username.
-- **username and password** - checks if the connecting client has specified both username and password.
-- **clientId and password** - checks if the connecting client has specified both clientId and password.
-- **clientId, username and password** - checks if the connecting client has specified clientId, username, and password.
+{% if docsPrefix != "pe/" %}
+{% assign sinceVersion = "2.3.0" %}
+{% include templates/mqtt-broker/since.md %}
+{% endif %}
+
+The Basic authentication provider includes an **Authentication strategy** field that determines how the broker validates connection parameters from the `CONNECT` packet. This strategy dictates which identifiers are used for a successful match and defines the available **Credentials matching** combinations:
+
+* **Client ID + Username**: The broker matches using both identifiers. This strategy allows for the most comprehensive matching combinations:
+    * **clientId** — checks for a specified clientId.
+    * **username** — checks for a specified username.
+    * **clientId and username** — checks for both clientId and username.
+    * **username and password** — checks for both username and password.
+    * **clientId and password** — checks for both clientId and password.
+    * **clientId, username and password** — checks for all three parameters.
+* **Client ID**: The broker matches only the clientId. This limits the authentication check to the **clientId** or **clientId and password** combinations.
+* **Username**: The broker matches only the username. This limits the authentication check to the **username** or **username and password** combinations.
+
+**Validation warning**: To maintain consistency, the UI displays a warning if your credential configuration conflicts with the selected strategy.
+For example, if the **Client ID** strategy is active, but you attempt to add or edit a credential with a **Username**, you will see the following message:
+
+![image](/images/mqtt-broker/security/auth-providers/basic/warning-auth-strategy.png)
 
 ### Credentials ID
 
@@ -65,7 +79,7 @@ The following configuration allows clients to publish messages to topics that st
 
 {% include images-gallery.html imageCollection="security-authorization-basic" %}
 
-### MQTT Example based on Client ID, Username and Password
+### MQTT example based on Client ID, Username and Password
 
 For this option, you should populate Client ID, Username and Password in the MQTT client credential. MQTT clients will be able to connect if they specify correct combination of client ID, username and password.
 
@@ -84,7 +98,7 @@ where:
 
 {% include images-gallery.html imageCollection="tbmq-client-id-username-and-password" %}
 
-### MQTTS Example based on Client ID, Username and Password
+### MQTTS example based on Client ID, Username and Password
 
 One-way SSL authentication is a standard authentication mode, where your client device verifies the identity of a server using server certificate.
 Follow the [MQTT over SSL](/docs/{{docsPrefix}}mqtt-broker/security/mqtts/) guide to provision server certificate for your own TBMQ instance.
