@@ -912,6 +912,9 @@
 "/docs/mqtt-broker/other/blocked-client/":
   url: "/docs/mqtt-broker/other/blocked-client/"
   redirect_from: []
+"/docs/mqtt-broker/other/bulk-provisioning/":
+  url: "/docs/mqtt-broker/other/bulk-provisioning/"
+  redirect_from: []
 "/docs/mqtt-broker/other/health/":
   url: "/docs/mqtt-broker/other/health/"
   redirect_from: []
@@ -3598,6 +3601,9 @@
   redirect_from: []
 "/docs/pe/mqtt-broker/other/blocked-client/":
   url: "/docs/pe/mqtt-broker/other/blocked-client/"
+  redirect_from: []
+"/docs/pe/mqtt-broker/other/bulk-provisioning/":
+  url: "/docs/pe/mqtt-broker/other/bulk-provisioning/"
   redirect_from: []
 "/docs/pe/mqtt-broker/other/health/":
   url: "/docs/pe/mqtt-broker/other/health/"
