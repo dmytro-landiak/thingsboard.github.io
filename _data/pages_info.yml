@@ -936,6 +936,9 @@
 "/docs/mqtt-broker/security/authentication/basic/":
   url: "/docs/mqtt-broker/security/authentication/basic/"
   redirect_from: []
+"/docs/mqtt-broker/security/authentication/http/":
+  url: "/docs/mqtt-broker/security/authentication/http/"
+  redirect_from: []
 "/docs/mqtt-broker/security/authentication/jwt/":
   url: "/docs/mqtt-broker/security/authentication/jwt/"
   redirect_from: []
@@ -3677,6 +3680,9 @@
   redirect_from: []
 "/docs/pe/mqtt-broker/security/authentication/basic/":
   url: "/docs/pe/mqtt-broker/security/authentication/basic/"
+  redirect_from: []
+"/docs/pe/mqtt-broker/security/authentication/http/":
+  url: "/docs/pe/mqtt-broker/security/authentication/http/"
   redirect_from: []
 "/docs/pe/mqtt-broker/security/authentication/jwt/":
   url: "/docs/pe/mqtt-broker/security/authentication/jwt/"
