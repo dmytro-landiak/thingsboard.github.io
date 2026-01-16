@@ -30,6 +30,8 @@ toc:
         path: /docs/mqtt-broker/security/authentication/jwt/
       - title: SCRAM
         path: /docs/mqtt-broker/security/authentication/scram/
+      - title: HTTP
+        path: /docs/mqtt-broker/security/authentication/http/
     - title: Enable HTTPS
       path: /docs/mqtt-broker/security/https/
     - title: OAuth 2.0
