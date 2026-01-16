@@ -151,7 +151,7 @@ Then expand the "Advanced settings" section and configure the "General" block:
 Go to the "Mapper" block:
 
 * Keep the mapper type as "BASIC";
-* Specify the role to be assigned;
+* Configure the "Role assignment settings": choose "Static" to assign a fixed role to all users, or "Dynamic" to map user attributes to roles;
 * Click "Add".
 
 {% include images-gallery.html imageCollection="google-configuration-of-thingsboard-google-3" %}
@@ -245,7 +245,7 @@ In the **General** block of the "Advanced settings" section:
 <br>
 Proceed to the "Mapper" block:
 - Leave the mapper type as **BASIC**;
-- Specify the role to be used;
+- Configure the "Role assignment settings": choose "Static" to assign a fixed role to all users, or "Dynamic" to map user attributes to roles;
 - Click **Add** to complete the addition of the new OAuth 2.0 client.
 
 {% include images-gallery.html imageCollection="oauth0-configuration-of-thingsboard-3" %}
@@ -401,7 +401,7 @@ Then expand the "Advanced settings" menu and configure the "General" block:
 Go to the "Mapper" block:
 
 * Leave the mapper type as **BASIC**;
-* Specify the role to be used;
+* Configure the "Role assignment settings": choose "Static" to assign a fixed role to all users, or "Dynamic" to map user attributes to roles;
 * Click **Add** to confirm.
 
 A new OAuth 2.0 client has been added.
@@ -455,7 +455,13 @@ Details of the available properties:
 
 * **Last name attribute key** – The attribute key from the external OAuth 2.0 user info that will be used for the TBMQ user last name property.
 
-* **Role** – Choose from the predefined roles to be assigned to the user.
+* **Role assignment settings** – Select a fixed role or map roles dynamically from user attributes.
+  * **Role assignment mode** – Choose between **Static** and **Dynamic**:
+    * **Static**: This role will be assigned to all users authenticated through this provider.
+    * **Dynamic**: Roles are assigned based on the value of a specific attribute in the user info object.
+      * **Role attribute key**: User info attribute (e.g., 'roles' or 'groups') for mapping. If both match, Administrator is granted over Viewer.
+      * **Administrator role values**: List of attribute values that will grant the Administrator role (e.g., 'platform-owner').
+      * **Viewer role values**: List of attribute values that will grant the Viewer role (e.g., 'interns', 'auditors').
 
 > {% include templates/mqtt-broker/security/user-password.md %}
 
