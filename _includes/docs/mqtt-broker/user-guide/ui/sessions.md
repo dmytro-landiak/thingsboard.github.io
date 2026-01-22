@@ -34,9 +34,10 @@ The **Details** tab contains the next information:
    * [**Client type**](/docs/{{docsPrefix}}mqtt-broker/user-guide/mqtt-client-type) (Device/Application).
    * [**Client Credentials**](/docs/{{docsPrefix}}mqtt-broker/user-guide/ui/mqtt-client-credentials/) displays the source used for session authentication, dynamically updating 
    its label to '[Basic](/docs/{{docsPrefix}}mqtt-broker/security/authentication/basic/) Client Credentials', '[X.509](/docs/{{docsPrefix}}mqtt-broker/security/authentication/x509/) Client Credentials', 
-   or 'Auth provider' (for [JWT](/docs/{{docsPrefix}}mqtt-broker/security/authentication/jwt/) and [SCRAM](/docs/{{docsPrefix}}mqtt-broker/security/authentication/scram/)) to reflect the specific provider. 
-   If the broker cannot identify the source (e.g. credentials were deleted after connection), the label is set to 'Unknown Client Credentials'.
-   * **MQTT version** - determines which version of MQTT protocol to be used - MQTT 3.1 (3), MQTT 3.1.1 (4), or MQTT 5.0 (5).
+   or 'Auth provider' (for [JWT](/docs/{{docsPrefix}}mqtt-broker/security/authentication/jwt/), [HTTP](/docs/{{docsPrefix}}mqtt-broker/security/authentication/http/), 
+   and [SCRAM](/docs/{{docsPrefix}}mqtt-broker/security/authentication/scram/)) to reflect the specific provider. 
+   If the broker cannot identify the source (e.g., credentials were deleted after connection), the label is set to 'Unknown Client Credentials'.
+   * **MQTT version** - determines which version of MQTT protocol to be used — MQTT 3.1 (3), MQTT 3.1.1 (4), or MQTT 5.0 (5).
 
 ## Subscriptions
 
