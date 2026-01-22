@@ -1,7 +1,7 @@
 ---
 layout: docwithnav-mqtt-broker
-title: HTTP Service Authentication
-description: HTTP Service Authentication documentation
+title: HTTP Authentication
+description: HTTP Authentication documentation
 
 http-provider-control:
   0:
@@ -13,7 +13,7 @@ http-provider-control:
   2:
     image: /images/mqtt-broker/security/auth-providers/http/http-provider-control-3.png
     title: 'Select the HTTP row, and click the "Edit" button to configure the provider.'
-    
+
 http-provider-config:
   0:
     image: /images/mqtt-broker/security/auth-providers/http/http-provider-config-1.png
