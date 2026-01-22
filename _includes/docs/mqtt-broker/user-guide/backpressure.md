@@ -83,8 +83,8 @@ Netty determines writability based on **write buffer watermarks** — a pair of 
 
 These thresholds are configurable via environment variables:
 
-- `NETTY_WRITE_BUFFER_LOW_WATER_MARK` – defines the low watermark in bytes (default: `32768`, i.e. 32 KB)
-- `NETTY_WRITE_BUFFER_HIGH_WATER_MARK` – defines the high watermark in bytes (default: `65536`, i.e. 64 KB)
+- `NETTY_WRITE_BUFFER_LOW_WATER_MARK` – defines the low watermark in bytes (default: `327680`, i.e., 320 KB)
+- `NETTY_WRITE_BUFFER_HIGH_WATER_MARK` – defines the high watermark in bytes (default: `655360`, i.e., 640 KB)
 
 These values are applied during Netty server bootstrap using the `WRITE_BUFFER_WATER_MARK` channel option.
 
@@ -169,7 +169,7 @@ To maximize the effectiveness of TBMQ’s backpressure handling and ensure syste
 This metric is available both in logs and through the monitoring system (e.g., Prometheus). 
 For production environments, it's recommended to set up alerts when the value increases unexpectedly or stays elevated over time.
 
-- **Start with Default Backpressure Settings**: For most deployments, the default Netty buffer thresholds — 32 KB low watermark and 64 KB high watermark — provide robust performance. 
+- **Start with Default Backpressure Settings**: For most deployments, the default Netty buffer thresholds — 320 KB low watermark and 640 KB high watermark — provide robust performance. 
 These settings have been tested to support **around 10,000 messages per second per subscriber** under typical conditions.
 
 - **Ensure Sufficient Redis and Kafka Capacity**: Persistent client buffering relies on Redis and Kafka. Monitor their memory, disk, and throughput to avoid secondary bottlenecks.
