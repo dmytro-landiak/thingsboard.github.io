@@ -1,7 +1,7 @@
 * TOC
 {:toc}
 
-The **HTTP** authentication provider allows TBMQ to delegate client authentication to an external REST API.
+The **HTTP** authentication provider allows TBMQ to delegate client authentication to an external HTTP service.
 This is particularly useful for integrating TBMQ with existing identity management systems, custom databases, or legacy authentication services.
 
 ## HTTP authentication overview
@@ -99,7 +99,7 @@ If your external server returns a simple **200 OK** without a JSON body, or omit
 
 ### Advanced settings
 
-The "Advanced settings" section allows you to fine-tune the performance and reliability of the HTTP integration:
+The "Advanced settings" section allows you to fine-tune the performance and reliability of the HTTP auth provider:
 
 * **Read timeout**: The maximum time (in milliseconds) TBMQ waits for a response from the external server before failing authentication.
 * **Max parallel requests count**: The maximum number of concurrent authentication requests TBMQ will make to protect the external server.
@@ -138,7 +138,7 @@ In this example, we will use [**Beeceptor**](https://beeceptor.com) to simulate 
 ![image](/images/mqtt-broker/security/auth-providers/http/http-auth-example-provider.png)
 
 Authentication providers are processed sequentially. To ensure the **HTTP** provider handles the connection request, navigate to
-[**MQTT Authentication Settings**](/docs/mqtt-broker/user-guide/ui/settings/#mqtt-authentication) and move **HTTP** to the top of the **Authentication execution order** or deactivate other authentication providers.
+[**MQTT Authentication Settings**](/docs/{{docsPrefix}}mqtt-broker/user-guide/ui/settings/#mqtt-authentication) and move **HTTP** to the top of the **Authentication execution order** or deactivate other authentication providers.
 If other providers are positioned higher and successfully validate the client, the HTTP request will not be triggered.
 
 ![image](/images/mqtt-broker/security/auth-providers/http/http-auth-example-settings.png)
