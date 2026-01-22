@@ -900,6 +900,9 @@
 "/docs/mqtt-broker/other/blocked-client/":
   url: "/docs/mqtt-broker/other/blocked-client/"
   redirect_from: []
+"/docs/mqtt-broker/other/bulk-provisioning/":
+  url: "/docs/mqtt-broker/other/bulk-provisioning/"
+  redirect_from: []
 "/docs/mqtt-broker/other/health/":
   url: "/docs/mqtt-broker/other/health/"
   redirect_from: []
@@ -932,6 +935,9 @@
   redirect_from: []
 "/docs/mqtt-broker/security/authentication/basic/":
   url: "/docs/mqtt-broker/security/authentication/basic/"
+  redirect_from: []
+"/docs/mqtt-broker/security/authentication/http/":
+  url: "/docs/mqtt-broker/security/authentication/http/"
   redirect_from: []
 "/docs/mqtt-broker/security/authentication/jwt/":
   url: "/docs/mqtt-broker/security/authentication/jwt/"
@@ -3639,6 +3645,9 @@
 "/docs/pe/mqtt-broker/other/blocked-client/":
   url: "/docs/pe/mqtt-broker/other/blocked-client/"
   redirect_from: []
+"/docs/pe/mqtt-broker/other/bulk-provisioning/":
+  url: "/docs/pe/mqtt-broker/other/bulk-provisioning/"
+  redirect_from: []
 "/docs/pe/mqtt-broker/other/health/":
   url: "/docs/pe/mqtt-broker/other/health/"
   redirect_from: []
@@ -3671,6 +3680,9 @@
   redirect_from: []
 "/docs/pe/mqtt-broker/security/authentication/basic/":
   url: "/docs/pe/mqtt-broker/security/authentication/basic/"
+  redirect_from: []
+"/docs/pe/mqtt-broker/security/authentication/http/":
+  url: "/docs/pe/mqtt-broker/security/authentication/http/"
   redirect_from: []
 "/docs/pe/mqtt-broker/security/authentication/jwt/":
   url: "/docs/pe/mqtt-broker/security/authentication/jwt/"

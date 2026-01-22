@@ -1,7 +1,7 @@
 * TOC
 {:toc}
 
-TBMQ provides set of security features designed to protect MQTT communication, control client access, and enforce topic-level permissions. 
+TBMQ provides a set of security features designed to protect MQTT communication, control client access, and enforce topic-level permissions. 
 These features cover key aspects of MQTT security — from connection level settings to fine-grained authorization rules — and offer flexible configuration options for a variety of deployment scenarios.
 
 The overview page introduces the three core areas of MQTT security in TBMQ: connection level security, authentication, and authorization.
@@ -18,7 +18,7 @@ For TLS and WebSocket Secure (WSS) listeners, encryption parameters such as cert
 ## Authentication
 
 Authentication verifies the identity of clients attempting to connect. It is the process of validating client credentials before granting access to the broker.
-Supported authentication methods include: Basic (username/password), X.509 Certificate Chain, JWT, and SCRAM.
+Supported authentication methods include: Basic (client id/username/password), HTTP (client id/username/password sent to the HTTP server), X.509 Certificate Chain, JWT, and SCRAM.
 
 
 ### Providers management
@@ -34,6 +34,7 @@ Authentication methods are implemented as pluggable authentication providers:
 - [X.509 Certificate Chain](/docs/{{docsPrefix}}mqtt-broker/security/authentication/x509/) — Uses the client’s X.509 certificate chain during TLS handshake for authentication.
 - [JWT (JSON Web Token)](/docs/{{docsPrefix}}mqtt-broker/security/authentication/jwt/) — Authenticates clients using a signed JWT passed in the **password** field of the `CONNECT` packet.
 - [SCRAM](/docs/{{docsPrefix}}mqtt-broker/security/authentication/scram/) — Performs a secure challenge-response using hashed credentials to authenticate without sending the actual password (MQTT 5.0 only).
+- [HTTP](/docs/{{docsPrefix}}mqtt-broker/security/authentication/http/) — Authenticates clients via an external HTTP service using the clientId, username, and password.
 
 Each provider can be individually enabled, disabled, and configured to meet requirements for different deployment use cases.
 
@@ -60,7 +61,8 @@ This can be configured from the [MQTT Authentication Settings](/docs/{{docsPrefi
 
 Authorization involves granting or denying access to specific resources or actions based on the authenticated client’s privileges.
 To achieve this, define topic-level access control by applying configurable rules that determine whether a client can publish to or subscribe from specific topics. TBMQ uses regular expression–based topic patterns to enforce these rules. 
-Authorization settings are typically configured per [client credentials](/docs/{{docsPrefix}}mqtt-broker/user-guide/ui/mqtt-client-credentials). Only JWT-based authentication supports defining authorization rules at the provider level, allowing dynamic, token-driven access control.
+Authorization settings are typically configured per [client credentials](/docs/{{docsPrefix}}mqtt-broker/user-guide/ui/mqtt-client-credentials).
+Both HTTP and JWT authentication support provider-level authorization rules, enabling dynamic access control based on token claims or external responses.
 
 ## Next steps
 

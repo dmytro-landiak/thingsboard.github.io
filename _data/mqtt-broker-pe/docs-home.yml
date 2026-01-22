@@ -26,10 +26,12 @@ toc:
       - title: X.509 Certificate Chain
         path: /docs/pe/mqtt-broker/security/authentication/x509/
       - title: JWT
-        new: true
         path: /docs/pe/mqtt-broker/security/authentication/jwt/
       - title: SCRAM
         path: /docs/pe/mqtt-broker/security/authentication/scram/
+      - title: HTTP
+        new: true
+        path: /docs/pe/mqtt-broker/security/authentication/http/
     - title: Enable HTTPS
       path: /docs/pe/mqtt-broker/security/https/
     - title: OAuth 2.0
@@ -77,6 +79,8 @@ toc:
       path: /docs/pe/mqtt-broker/other/proxy-protocol/
     - title: Health API
       path: /docs/pe/mqtt-broker/other/health/
+    - title: Bulk Provisioning
+      path: /docs/pe/mqtt-broker/other/bulk-provisioning/
 - title: Integrations
   new: true
   section:
