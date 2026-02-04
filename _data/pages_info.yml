@@ -242,6 +242,9 @@
 "/docs/devices-library/rn172wcd/":
   url: "/docs/devices-library/rn172wcd/"
   redirect_from: []
+"/docs/devices-library/rn320bth/":
+  url: "/docs/devices-library/rn320bth/"
+  redirect_from: []
 "/docs/devices-library/rock-pi-4-model-b/":
   url: "/docs/devices-library/rock-pi-4-model-b/"
   redirect_from: []
@@ -481,11 +484,50 @@
   url: "/docs/edge/reference/snmp-api/"
   redirect_from:
   - "/docs/edge/reference/snmp-api"
+"/docs/edge/releases/release-policy/":
+  url: "/docs/edge/releases/release-policy/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/":
+  url: "/docs/edge/releases/releases-table/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-3-x/":
+  url: "/docs/edge/releases/releases-table/v3-3-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-4-x/":
+  url: "/docs/edge/releases/releases-table/v3-4-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-5-x/":
+  url: "/docs/edge/releases/releases-table/v3-5-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-6-x/":
+  url: "/docs/edge/releases/releases-table/v3-6-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-7-x/":
+  url: "/docs/edge/releases/releases-table/v3-7-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-8-x/":
+  url: "/docs/edge/releases/releases-table/v3-8-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v3-9-x/":
+  url: "/docs/edge/releases/releases-table/v3-9-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v4-0-x/":
+  url: "/docs/edge/releases/releases-table/v4-0-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v4-1-x/":
+  url: "/docs/edge/releases/releases-table/v4-1-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v4-2-x/":
+  url: "/docs/edge/releases/releases-table/v4-2-x/"
+  redirect_from: []
+"/docs/edge/releases/releases-table/v4-3-x/":
+  url: "/docs/edge/releases/releases-table/v4-3-x/"
+  redirect_from: []
+"/docs/edge/releases/roadmap/":
+  url: "/docs/edge/releases/roadmap/"
+  redirect_from: []
 "/docs/edge/releases/":
   url: "/docs/edge/releases/"
-  redirect_from: []
-"/docs/edge/roadmap/":
-  url: "/docs/edge/roadmap/"
   redirect_from: []
 "/docs/edge/rule-engine/provision-rule-chains/":
   url: "/docs/edge/rule-engine/provision-rule-chains/"
@@ -1279,6 +1321,9 @@
 "/docs/paas/devices-library/rn172wcd/":
   url: "/docs/paas/devices-library/rn172wcd/"
   redirect_from: []
+"/docs/paas/devices-library/rn320bth/":
+  url: "/docs/paas/devices-library/rn320bth/"
+  redirect_from: []
 "/docs/paas/devices-library/rock-pi-4-model-b/":
   url: "/docs/paas/devices-library/rock-pi-4-model-b/"
   redirect_from: []
@@ -1649,6 +1694,9 @@
 "/docs/paas/eu/devices-library/rn172wcd/":
   url: "/docs/paas/eu/devices-library/rn172wcd/"
   redirect_from: []
+"/docs/paas/eu/devices-library/rn320bth/":
+  url: "/docs/paas/eu/devices-library/rn320bth/"
+  redirect_from: []
 "/docs/paas/eu/devices-library/rock-pi-4-model-b/":
   url: "/docs/paas/eu/devices-library/rock-pi-4-model-b/"
   redirect_from: []
@@ -1928,11 +1976,20 @@
   redirect_from:
   - "/products/paas/eu/subscription/"
   - "/docs/paas/eu/subscription/"
+"/docs/paas/eu/tutorials/create-clear-alarms/":
+  url: "/docs/paas/eu/tutorials/create-clear-alarms/"
+  redirect_from: []
 "/docs/paas/eu/tutorials/function-based-on-telemetry-from-two-devices/":
   url: "/docs/paas/eu/tutorials/function-based-on-telemetry-from-two-devices/"
   redirect_from: []
+"/docs/paas/eu/tutorials/send-email/":
+  url: "/docs/paas/eu/tutorials/send-email/"
+  redirect_from: []
 "/docs/paas/eu/tutorials/telemetry-delta-calculation/":
   url: "/docs/paas/eu/tutorials/telemetry-delta-calculation/"
+  redirect_from: []
+"/docs/paas/eu/tutorials/validate-incoming-telemetry/":
+  url: "/docs/paas/eu/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/paas/eu/user-guide/access-token/":
   url: "/docs/paas/eu/user-guide/access-token/"
@@ -2195,9 +2252,6 @@
 "/docs/paas/eu/user-guide/rule-engine-2-0/re-getting-started/":
   url: "/docs/paas/eu/user-guide/rule-engine-2-0/re-getting-started/"
   redirect_from: []
-"/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/":
-  url: "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/"
-  redirect_from: []
 "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/":
   url: "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/"
   redirect_from: []
@@ -2206,9 +2260,6 @@
   redirect_from: []
 "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/":
   url: "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
-  redirect_from: []
-"/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/":
-  url: "/docs/paas/eu/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/paas/eu/user-guide/rule-engine-2-5/tutorials/queues-for-message-reprocessing/":
   url: "/docs/paas/eu/user-guide/rule-engine-2-5/tutorials/queues-for-message-reprocessing/"
@@ -2230,7 +2281,8 @@
   redirect_from: []
 "/docs/paas/eu/user-guide/security/api-keys/":
   url: "/docs/paas/eu/user-guide/security/api-keys/"
-  redirect_from: []
+  redirect_from:
+  - docs/paas/eu/user-guide/ui/api-keys
 "/docs/paas/eu/user-guide/self-registration/":
   url: "/docs/paas/eu/user-guide/self-registration/"
   redirect_from: []
@@ -2489,11 +2541,20 @@
   redirect_from:
   - "/products/paas/subscription/"
   - "/docs/paas/subscription/"
+"/docs/paas/tutorials/create-clear-alarms/":
+  url: "/docs/paas/tutorials/create-clear-alarms/"
+  redirect_from: []
 "/docs/paas/tutorials/function-based-on-telemetry-from-two-devices/":
   url: "/docs/paas/tutorials/function-based-on-telemetry-from-two-devices/"
   redirect_from: []
+"/docs/paas/tutorials/send-email/":
+  url: "/docs/paas/tutorials/send-email/"
+  redirect_from: []
 "/docs/paas/tutorials/telemetry-delta-calculation/":
   url: "/docs/paas/tutorials/telemetry-delta-calculation/"
+  redirect_from: []
+"/docs/paas/tutorials/validate-incoming-telemetry/":
+  url: "/docs/paas/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/paas/user-guide/access-token/":
   url: "/docs/paas/user-guide/access-token/"
@@ -2756,9 +2817,6 @@
 "/docs/paas/user-guide/rule-engine-2-0/re-getting-started/":
   url: "/docs/paas/user-guide/rule-engine-2-0/re-getting-started/"
   redirect_from: []
-"/docs/paas/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/":
-  url: "/docs/paas/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/"
-  redirect_from: []
 "/docs/paas/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/":
   url: "/docs/paas/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/"
   redirect_from: []
@@ -2767,9 +2825,6 @@
   redirect_from: []
 "/docs/paas/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/":
   url: "/docs/paas/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
-  redirect_from: []
-"/docs/paas/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/":
-  url: "/docs/paas/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/paas/user-guide/rule-engine-2-5/tutorials/queues-for-message-reprocessing/":
   url: "/docs/paas/user-guide/rule-engine-2-5/tutorials/queues-for-message-reprocessing/"
@@ -2791,7 +2846,8 @@
   redirect_from: []
 "/docs/paas/user-guide/security/api-keys/":
   url: "/docs/paas/user-guide/security/api-keys/"
-  redirect_from: []
+  redirect_from:
+  - docs/paas/user-guide/ui/api-keys
 "/docs/paas/user-guide/self-registration/":
   url: "/docs/paas/user-guide/self-registration/"
   redirect_from: []
@@ -3136,6 +3192,9 @@
 "/docs/pe/devices-library/rn172wcd/":
   url: "/docs/pe/devices-library/rn172wcd/"
   redirect_from: []
+"/docs/pe/devices-library/rn320bth/":
+  url: "/docs/pe/devices-library/rn320bth/"
+  redirect_from: []
 "/docs/pe/devices-library/rock-pi-4-model-b/":
   url: "/docs/pe/devices-library/rock-pi-4-model-b/"
   redirect_from: []
@@ -3361,11 +3420,50 @@
   url: "/docs/pe/edge/reference/snmp-api/"
   redirect_from:
   - "/docs/pe/edge/reference/snmp-api"
+"/docs/pe/edge/releases/release-policy/":
+  url: "/docs/pe/edge/releases/release-policy/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/":
+  url: "/docs/pe/edge/releases/releases-table/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-3-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-3-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-4-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-4-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-5-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-5-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-6-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-6-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-7-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-7-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-8-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-8-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v3-9-x/":
+  url: "/docs/pe/edge/releases/releases-table/v3-9-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v4-0-x/":
+  url: "/docs/pe/edge/releases/releases-table/v4-0-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v4-1-x/":
+  url: "/docs/pe/edge/releases/releases-table/v4-1-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v4-2-x/":
+  url: "/docs/pe/edge/releases/releases-table/v4-2-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/releases-table/v4-3-x/":
+  url: "/docs/pe/edge/releases/releases-table/v4-3-x/"
+  redirect_from: []
+"/docs/pe/edge/releases/roadmap/":
+  url: "/docs/pe/edge/releases/roadmap/"
+  redirect_from: []
 "/docs/pe/edge/releases/":
   url: "/docs/pe/edge/releases/"
-  redirect_from: []
-"/docs/pe/edge/roadmap/":
-  url: "/docs/pe/edge/roadmap/"
   redirect_from: []
 "/docs/pe/edge/rule-engine/provision-rule-chains/":
   url: "/docs/pe/edge/rule-engine/provision-rule-chains/"
@@ -3980,11 +4078,20 @@
 "/docs/pe/solution-templates/water-metering/":
   url: "/docs/pe/solution-templates/water-metering/"
   redirect_from: []
+"/docs/pe/tutorials/create-clear-alarms/":
+  url: "/docs/pe/tutorials/create-clear-alarms/"
+  redirect_from: []
 "/docs/pe/tutorials/function-based-on-telemetry-from-two-devices/":
   url: "/docs/pe/tutorials/function-based-on-telemetry-from-two-devices/"
   redirect_from: []
+"/docs/pe/tutorials/send-email/":
+  url: "/docs/pe/tutorials/send-email/"
+  redirect_from: []
 "/docs/pe/tutorials/telemetry-delta-calculation/":
   url: "/docs/pe/tutorials/telemetry-delta-calculation/"
+  redirect_from: []
+"/docs/pe/tutorials/validate-incoming-telemetry/":
+  url: "/docs/pe/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/pe/user-guide/access-token/":
   url: "/docs/pe/user-guide/access-token/"
@@ -4400,9 +4507,6 @@
 "/docs/pe/user-guide/rule-engine-2-0/re-getting-started/":
   url: "/docs/pe/user-guide/rule-engine-2-0/re-getting-started/"
   redirect_from: []
-"/docs/pe/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/":
-  url: "/docs/pe/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/"
-  redirect_from: []
 "/docs/pe/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/":
   url: "/docs/pe/user-guide/rule-engine-2-0/tutorials/integration-with-telegram-bot/"
   redirect_from: []
@@ -4411,9 +4515,6 @@
   redirect_from: []
 "/docs/pe/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/":
   url: "/docs/pe/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
-  redirect_from: []
-"/docs/pe/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/":
-  url: "/docs/pe/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/pe/user-guide/rule-engine-2-5/queues/":
   url: "/docs/pe/user-guide/rule-engine-2-5/queues/"
@@ -4441,7 +4542,8 @@
   redirect_from: []
 "/docs/pe/user-guide/security/api-keys/":
   url: "/docs/pe/user-guide/security/api-keys/"
-  redirect_from: []
+  redirect_from:
+  - docs/pe/user-guide/ui/api-keys
 "/docs/pe/user-guide/self-registration/":
   url: "/docs/pe/user-guide/self-registration/"
   redirect_from:
@@ -4811,9 +4913,6 @@
 "/docs/samples/roltek/roltek/":
   url: "/docs/samples/roltek/roltek/"
   redirect_from: []
-"/docs/samples/sample/sample/":
-  url: "/docs/samples/sample/sample/"
-  redirect_from: []
 "/docs/samples/senquip/":
   url: "/docs/samples/senquip/"
   redirect_from: []
@@ -5126,11 +5225,20 @@
 "/docs/trendz/widget-settings/":
   url: "/docs/trendz/widget-settings/"
   redirect_from: []
+"/docs/tutorials/create-clear-alarms/":
+  url: "/docs/tutorials/create-clear-alarms/"
+  redirect_from: []
 "/docs/tutorials/function-based-on-telemetry-from-two-devices/":
   url: "/docs/tutorials/function-based-on-telemetry-from-two-devices/"
   redirect_from: []
+"/docs/tutorials/send-email/":
+  url: "/docs/tutorials/send-email/"
+  redirect_from: []
 "/docs/tutorials/telemetry-delta-calculation/":
   url: "/docs/tutorials/telemetry-delta-calculation/"
+  redirect_from: []
+"/docs/tutorials/validate-incoming-telemetry/":
+  url: "/docs/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/user-guide/access-token/":
   url: "/docs/user-guide/access-token/"
@@ -5357,8 +5465,140 @@
 "/docs/user-guide/install/edge/rpi/":
   url: "/docs/user-guide/install/edge/rpi/"
   redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-4-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-5-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-6-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-7-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-8-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v3-9-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v4-0-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v4-1-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v4-2-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/centos/v4-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/centos/v4-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-4-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-5-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-6-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-7-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-8-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v3-9-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v4-0-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v4-1-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v4-2-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/docker/v4-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/docker/v4-3-x/"
+  redirect_from: []
 "/docs/user-guide/install/edge/upgrade-instructions/":
   url: "/docs/user-guide/install/edge/upgrade-instructions/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-4-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-5-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-6-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-7-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-8-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-9-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-0-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-1-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-2-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/ubuntu/v4-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-4-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-5-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-6-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-7-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-8-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v3-9-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v4-0-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v4-1-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v4-2-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/edge/upgrade-instructions/windows/v4-3-x/":
+  url: "/docs/user-guide/install/edge/upgrade-instructions/windows/v4-3-x/"
   redirect_from: []
 "/docs/user-guide/install/edge/windows/":
   url: "/docs/user-guide/install/edge/windows/"
@@ -5492,8 +5732,140 @@
 "/docs/user-guide/install/pe/edge/rpi/":
   url: "/docs/user-guide/install/pe/edge/rpi/"
   redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-4-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-5-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-6-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-7-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-8-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-9-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-0-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-1-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-2-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/centos/v4-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-4-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-5-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-6-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-7-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-8-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-9-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-0-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-1-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-2-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/docker/v4-3-x/"
+  redirect_from: []
 "/docs/user-guide/install/pe/edge/upgrade-instructions/":
   url: "/docs/user-guide/install/pe/edge/upgrade-instructions/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-4-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-5-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-6-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-7-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-8-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-9-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-0-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-1-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-2-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/ubuntu/v4-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-3-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-4-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-4-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-5-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-5-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-6-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-6-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-7-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-7-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-8-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-8-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-9-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v3-9-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-0-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-0-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-1-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-1-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-2-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-2-x/"
+  redirect_from: []
+"/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-3-x/":
+  url: "/docs/user-guide/install/pe/edge/upgrade-instructions/windows/v4-3-x/"
   redirect_from: []
 "/docs/user-guide/install/pe/edge/windows/":
   url: "/docs/user-guide/install/pe/edge/windows/"
@@ -6294,9 +6666,6 @@
 "/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/":
   url: "/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms-with-details/"
   redirect_from: []
-"/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/":
-  url: "/docs/user-guide/rule-engine-2-0/tutorials/create-clear-alarms/"
-  redirect_from: []
 "/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/":
   url: "/docs/user-guide/rule-engine-2-0/tutorials/create-inactivity-alarm/"
   redirect_from: []
@@ -6321,20 +6690,11 @@
 "/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/":
   url: "/docs/user-guide/rule-engine-2-0/tutorials/send-email-to-customer/"
   redirect_from: []
-"/docs/user-guide/rule-engine-2-0/tutorials/send-email/":
-  url: "/docs/user-guide/rule-engine-2-0/tutorials/send-email/"
-  redirect_from: []
 "/docs/user-guide/rule-engine-2-0/tutorials/telemetry-delta-validation/":
   url: "/docs/user-guide/rule-engine-2-0/tutorials/telemetry-delta-validation/"
   redirect_from: []
-"/docs/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/":
-  url: "/docs/user-guide/rule-engine-2-0/tutorials/transform-incoming-telemetry/"
-  redirect_from: []
 "/docs/user-guide/rule-engine-2-0/tutorials/transform-telemetry-using-previous-record/":
   url: "/docs/user-guide/rule-engine-2-0/tutorials/transform-telemetry-using-previous-record/"
-  redirect_from: []
-"/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/":
-  url: "/docs/user-guide/rule-engine-2-0/tutorials/validate-incoming-telemetry/"
   redirect_from: []
 "/docs/user-guide/rule-engine-2-5/queues/":
   url: "/docs/user-guide/rule-engine-2-5/queues/"
@@ -6357,7 +6717,8 @@
   redirect_from: []
 "/docs/user-guide/security/api-keys/":
   url: "/docs/user-guide/security/api-keys/"
-  redirect_from: []
+  redirect_from:
+  - docs/user-guide/ui/api-keys
 "/docs/user-guide/ssl/coap-access-token/":
   url: "/docs/user-guide/ssl/coap-access-token/"
   redirect_from: []
