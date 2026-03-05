@@ -121,4 +121,6 @@ Message description:
 - **props**: MQTT 5.0 user properties or other MQTT properties.
 - **metadata**: Additional metadata added from integration configuration, e.g., the name of the integration that handled the message, added by default.
 
+{% include templates/mqtt-broker/integrations/client-cert-cn.md %}
+
 {% include images-gallery.html imageCollection="send-uplink-message-kafka" %}
