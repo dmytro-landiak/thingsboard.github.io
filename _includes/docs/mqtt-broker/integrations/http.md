@@ -85,7 +85,7 @@ To send a message, follow these steps:
 2. Select 'WebSocket Default Connection' or any other available working connection, then click **Connect**. Make sure the 'Connection status' is shown as `Connected`.
 3. Set the 'Topic' field to `tbmq/http-integration` to match the Integration's 'Topic Filter' `tbmq/#`.
 4. Click the **Send** icon to publish the message. 
-5. If successfull, the message should appear in the 'Messages' table.
+5. If successful, the message should appear in the 'Messages' table.
 
 {% include images-gallery.html imageCollection="send-uplink-message" %}
 
